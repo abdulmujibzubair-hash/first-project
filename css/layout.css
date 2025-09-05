@@ -1,0 +1,133 @@
+#container{
+    width: 900px;
+    height: 1000px;
+    border: 0px solid gray;
+    /* background-image: url('../images/stock.jpg');
+    background-repeat: no-repeat; */
+}
+
+.mujib{
+    width: 900px;
+    height: 150px;
+    border: 0px solid black;
+    background-color: skyblue;
+    background-image: url('../images/WhatsApp\ Image\ 2025-08-27\ at\ 00.26.58_d46a1677.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.menu{
+    width: 900px;
+    height: 50px;
+    border: 0px dashed red;    
+}
+
+.menu .link{
+    width: 180px;
+    height: 50px;
+    border: 0px dashed red;
+    text-align: center;
+    padding-top: 15px;
+    float: left;
+}
+
+.slider{
+    width: 900px;
+    height: 250px;
+    border: 0px solid;
+}
+
+.slider .slide1{
+    width: 250px;
+    height: 170px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.slider .slide2{
+    width: 500px;
+    height: 170px;
+    border: 0px solid;
+    float: left;
+    margin-top: 30px;
+    background-image: url('../images/stock.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.product{
+    width: 900px;
+    height: 200px;
+    border: 0px solid black;
+}
+
+.product .article1{
+    width: 300px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 25px;
+    background-color: lightblue;
+    background-image: url('../images/stock.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.product .article2{
+    width: 500px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+aside{
+    width: 900px;
+    height: 300px;
+    border: 0px solid black;
+}
+
+aside .showcase{
+    width: 300px;
+    height: 250px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+aside .showcase2{
+    width: 300px;
+    height: 250px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+aside .showcase3{
+    width: 200px;
+    height: 250px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}

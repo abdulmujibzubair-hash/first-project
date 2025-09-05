@@ -1,0 +1,545 @@
+*{
+    margin: auto;
+    padding: 0px;
+} 
+
+
+
+
+#container{
+    width: 900px;
+    height: auto;
+    border: 0px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
+
+.menu{
+    width: 1300px;
+    height: 20px;
+    border: 0px solid black;
+}
+
+.menu .name{
+    width: 250px;
+    height: 20px;
+    border: 0px solid black;
+    float: left;
+    
+}
+
+.menu .link{
+    width: 160px;
+    height: 20px;
+    border: 0px solid black;
+    float: left;
+    text-align: end;
+}
+
+
+
+.product{
+    width: 400px;
+    height: 180px;
+    border: 0px solid black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+
+
+.box{
+    width: 900px;
+    height: 20px;
+    border: 0px solid black;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.box .article1{
+    width: 450px;
+    height: 20px;
+    border: 0px solid black;
+    float: left;
+    text-align: end;
+}
+
+.box .article2{
+    width: 445px;
+    height: 20px;
+    border: 0px solid black;
+    float: left;
+    text-align: start;
+    border-top: 10px;
+    border-bottom: 20px;
+}
+
+.showcase{
+    width: 900px;
+    height: 100px;
+    border: 0px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.showcase .fire{
+    width: 290px;
+    height: 100px;
+    border: 0px solid black;
+    float: left;
+    background-color: lightgray;
+    background-image: url(../images/stock6.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%;  
+    border-top: 10px;
+    border-bottom: 20px;
+    text-align: end;
+}
+
+    
+.showcase .fire2{
+    width: 290px;
+    height: 100px;
+    border: 0px solid black;
+    float: left;
+    background-image: url(../images/stock3.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-color: lavenderblush;
+    margin-left: 10px;
+    border-top: 10px;
+    border-radius: 5px;
+}
+
+.showcase .fire3{
+    width: 290px;
+    height: 100px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 10px;
+    border-top: 10px;
+    background-image: url(../images/stock2.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-color: lightcyan;
+}
+
+
+.slide{
+    width: 900px;
+    height: 80px;
+    border: 0px solid black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.water{
+    width: 900px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 10px;
+    /* background-color: lightblue; */
+    margin-bottom: 15px;
+}
+
+.water .sand{
+    width: 450px;
+    height: 348px;
+    border: 0px solid black;
+    background-color: lightcyan;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border-bottom: 15px;
+    /* padding: 15px; */
+}
+
+
+.water .sand1{
+    width: 450px;
+    height: 100px;
+    border: 0px solid black;
+}
+.water .sand2{
+    width: 420px;
+    height: 218px;
+    border: 1px solid black;
+    /* background-image: url(../images/stock.jpg); */
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+}
+
+
+.water .mouse{
+    width: 400px;
+    height: 348px;
+    border: 0px solid black;
+    background-color: lightcyan;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.water .mouse1{
+    width: 400px;
+    height: 100px;
+    border: 0px solid black;
+}
+
+.water .mouse2{
+    width: 400px;
+    height: 248px;
+    border: 0px solid black;
+    background-image: url(../images/stock3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}   
+
+
+.water{
+    width: 900px;
+    height: 350px;
+    border: 0px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.water .sand{
+    width: 450px;
+    height: 348px;
+    border: 0px solid black;
+    background-color: lightcyan;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border-bottom: 15px;
+    
+}
+
+.water .sand1{
+    width: 450px;
+    height: 100px;
+    border: 0px solid black;
+}
+.water .sand2{
+    width: 450px;
+    height: 248px;
+    border: 0px solid black;
+    background-image: url(../images/stock.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.water .mouse{
+    width: 400px;
+    height: 348px;
+    border: 0px solid black;
+    background-color: lightcyan;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border-bottom: 30px;
+}
+
+.water .mouse1{
+    width: 400px;
+    height: 100px;
+    border: 0px solid black;
+}
+
+.water .mouse2{
+    width: 400px;
+    height: 248px;
+    border: 0px solid black;
+    background-image: url(../images/stock3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}   
+
+
+.standard{
+    width: 900px;
+    height: 350px;
+    border: 0px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.standard .deviation{
+    width: 450px;
+    height: 348px;
+    border: 0px solid black;
+    background-color: lightcyan;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border-bottom: 15px;
+}
+
+
+.standard .deviation1{
+    width: 450px;
+    height: 100px;
+    border: 0px solid black;
+    background-color: lavenderblush;
+    border-radius: 15px;
+    border-bottom: 15px;
+}
+.standard .deviation2{
+    width: 450px;
+    height: 248px;
+    border: 0px solid black;
+    background-image: url(../images/stock4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.standard .mouth{
+    width: 400px;
+    height: 348px;
+    border: 0px solid black;
+    background-color: lightcyan;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border-bottom: 15px;
+}
+
+.standard .mouth1{
+    width: 400px;
+    height: 100px;
+    border: 0px solid black;
+}
+
+.standard .mouth2{
+    width: 400px;
+    height: 248px;
+    border: 0px solid black;
+    background-image: url(../images/stock6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}   
+
+
+   
+.school{
+    width: 900px;
+    height: 350px;
+    border: 0px solid black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.school .level{
+    width: 450px;
+    height: 348px;
+    border: 0px solid black;
+    background-color: lightcyan;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border-bottom: 15px;
+}
+
+
+.school .level1{
+    width: 450px;
+    height: 100px;
+    border: 0px solid black;
+}
+.school .level2{
+    width: 450px;
+    height: 248px;
+    border: 0px solid black;
+    background-image: url(../images/stock3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.avacademy{
+    width: 900px;
+    height: 70px;
+    border: 0px solid black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    width: 900px;
+    height: 200px;
+    border: 0px solid black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 5px;
+    text-align: start;
+    border-radius: 15px;
+    border-bottom: 15px;
+}
+
+.footer .foot1{
+    width: 450px;
+    height: 200px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+.footer .foot2{
+    width: 350px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: lightslategrey;
+    background-image: url(../images/stock3.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin-left: 66px;
+    text-align: start;
+
+}
+
+
+.service{
+    width: 900px;
+    height: 200px;
+    border: 0px solid black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
+.service .rendered1{
+    width: 450px;
+    height: 200px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.service .rendered2{
+    width: 350px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 50px;
+    background-image: url(../images/stock.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 66px;
+}
+
+#cont{
+    width: 1300px;
+    height: auto;
+    border: 0px solid black;
+}
+.end{
+    width: 1200px;
+    height: 200px;
+    border: 0px solid red;
+    background-color: blue;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.break{
+    width: 1300px;
+    height: 160px;
+    border: 0px solid black;
+}
+
+.end .break1{
+    width: 240px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.end .break2{
+    width: 260px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+}
+
+.end .break3{
+    width: 240px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+}
+
+.end .break4{
+    width: 260px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+}
+
+.end .break5{
+    width: 200px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+.start{
+    width: 1300px;
+    height: 30px;
+    border: 0px solid black;
+    text-align: center;
+}
+
