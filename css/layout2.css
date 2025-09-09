@@ -585,7 +585,7 @@
 }
 
 .header .navbar{
-    width: 470px;
+    width: 230px;
     height: 45px;
     border: 0px solid black;
     float: left;
@@ -955,7 +955,7 @@
 
 
 .navigator .nav{
-    width: 448px;
+    width: 220px;
     height: 45px;
     border: 0px solid black;
     float: left;
