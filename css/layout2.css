@@ -5,38 +5,45 @@
 
 
 
-
 #container{
-    width: 900px;
+    width: 1800px;
     height: auto;
     border: 0px solid black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
+    margin-bottom: 150px;
 }
 
 
 .menu{
-    width: 1300px;
+    width: 1800px;
     height: 20px;
     border: 0px solid black;
+    margin-top: 0px;
 }
 
 .menu .name{
-    width: 250px;
+    width: 500px;
     height: 20px;
     border: 0px solid black;
     float: left;
+    margin-right: 100px;
     
 }
 
 .menu .link{
-    width: 160px;
+    width: 270px;
     height: 20px;
     border: 0px solid black;
     float: left;
     text-align: end;
 }
 
+#connect{
+    width: 1000px;
+    height: 2410px;
+    border: 0px solid black;
+}
 
 
 .product{
@@ -45,9 +52,9 @@
     border: 0px solid black;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 0px;
-    margin-left: 250px;
-    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 100px;
 }
 
 
@@ -95,7 +102,7 @@
     background-color: lightgray;
     background-image: url(../images/stock6.jpg);
     background-repeat: no-repeat;
-    background-size: 15%;  
+    background-size: 15%;
     border-top: 10px;
     border-bottom: 20px;
     text-align: end;
@@ -372,25 +379,24 @@
 
 .avacademy{
     width: 900px;
-    height: 70px;
+    height: 100px;
     border: 0px solid black;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
 }
 
 .footer{
     width: 900px;
     height: 200px;
     border: 0px solid black;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 150px;
+    margin-bottom: 50px;
     background-color: black;
-    margin-left: 10px;
-    margin-right: 5px;
+    margin-left: 50px;
+    margin-right: 0px;
     text-align: start;
-    border-radius: 15px;
-    border-bottom: 15px;
+    border-radius: 10px;
 }
 
 .footer .foot1{
@@ -399,24 +405,24 @@
     border: 0px solid black;
     float: left;
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 23px;
     color: white;
     text-align: left;
     padding: 10px;
 }
 
 .footer .foot2{
-    width: 350px;
+    width: 300px;
     height: 150px;
     border: 0px solid black;
     float: left;
     margin-top: 50px;
     border-radius: 10px;
-    background-color: lightslategrey;
     background-image: url(../images/stock3.jpg);
     background-repeat: no-repeat;
-    background-size: 80%;
-    margin-left: 66px;
+    background-size: 100%;
+    margin-left: 113px;
+    margin-right: 0px;
     text-align: start;
 
 }
@@ -429,9 +435,9 @@
     margin-top: 5px;
     margin-bottom: 15px;
     background-color: black;
-    margin-left: 10px;
-    margin-right: 5px;
-    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 0px;
+    border-radius: 10px;
 }
 
 .service .rendered1{
@@ -446,7 +452,7 @@
 }
 
 .service .rendered2{
-    width: 350px;
+    width: 340px;
     height: 150px;
     border: 0px solid black;
     float: left;
@@ -454,85 +460,95 @@
     background-image: url(../images/stock.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-left: 66px;
+    margin-left: 73px;
+    border-radius: 10px;
 }
 
 #cont{
-    width: 1300px;
-    height: auto;
+    width: 1500px;
+    height: 310px;
     border: 0px solid black;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .end{
-    width: 1200px;
-    height: 200px;
-    border: 0px solid red;
-    background-color: blue;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    width: 1500px;
+    height: 310px;
+    border: 0px solid black;
+    background-color: blueviolet
 }
 
 .break{
-    width: 1300px;
-    height: 160px;
+    width: 1500px;
+    height: 310px;
     border: 0px solid black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .end .break1{
-    width: 240px;
-    height: 150px;
+    width: 300px;
+    height: 280px;
     border: 0px solid black;
     float: left;
     margin-top: 10px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 5px;
+    padding: 20px;
 }
 
 .end .break2{
-    width: 260px;
-    height: 150px;
+    width: 300px;
+    height: 280px;
     border: 0px solid black;
     float: left;
     margin-top: 10px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 5px;
     color: white;
+    padding: 20px;
 }
 
 .end .break3{
-    width: 240px;
-    height: 150px;
+    width: 300px;
+    height: 280px;
     border: 0px solid black;
     float: left;
     margin-top: 10px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 5px;
     color: white;
+    padding: 20px;
 }
 
 .end .break4{
-    width: 260px;
-    height: 150px;
+    width: 300px;
+    height: 280px;
     border: 0px solid black;
     float: left;
     margin-top: 10px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 5px;
     color: white;
+    padding: 20px;
 }
 
 .end .break5{
-    width: 200px;
-    height: 150px;
+    width: 190px;
+    height: 280px;
     border: 0px solid black;
     float: left;
     margin-top: 10px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 5px;
+    padding: 10px;
 }
 
 
@@ -541,5 +557,509 @@
     height: 30px;
     border: 0px solid black;
     text-align: center;
+}
+
+
+#contain{
+    width: 1650px;
+    height: 45px;
+    border: 0px solid black;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    font-style: normal;
+}
+
+.header{
+    width: 1650px;
+    height: 45px;
+    border: 0px solid black;
+}
+
+.header .logo{
+    width: 700px;
+    height: 45px;
+    border: 0px solid black;
+    float: left;
+}
+
+.header .navbar{
+    width: 470px;
+    height: 45px;
+    border: 0px solid black;
+    float: left;
+    text-align: end;
+}
+
+
+#con{
+    width: 1000px;
+    height: 1840px;
+    border: 0px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.theory{
+    width: 620px;
+    height: 130px;
+    border: 0px solid black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.vision{
+    width: 1000px;
+    height: 268px;
+    border: 0px solid black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.vision1{
+    width: 450px;
+    height: 268px;
+    border: 0px solid black;
+    background-image: url(../images/imgss_files/payvantage1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.vision2{
+    width: 430px;
+    height: 246px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.motto{
+    width: 1000px;
+    height: 268px;
+    border: 0px solid black;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.mission1{
+    width: 430px;
+    height: 246px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+
+.mission2{
+    width: 450px;
+    height: 268px;
+    border: 0px solid black;
+    background-image: url(../images/imgss_files/payvantage1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.objective{
+    width: 1000px;
+    height: 300px;
+    border: 0px solid black;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+.objective1{
+    width: 300px;
+    height: 280px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.objective1 .picture{
+    width: 140px;
+    height: 130px;
+    border: 0px solid black;
+    margin-top: 60px;
+    margin-left: 167px;
+    background-image: url(../images/payvantage12.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+
+.objective2{
+    width: 280px;
+    height: 280px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: lavenderblush;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.objective2 .picture{
+    width: 140px;
+    height: 130px;
+    border: 0px solid black;
+    margin-top: 85px;
+    margin-left: 150px;
+    margin-right: 0px;
+    background-image: url(../images/payvantage13.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+
+}
+
+
+
+.objective3{
+    width: 290px;
+    height: 278px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: lightgray; 
+    padding: 10px;
+}
+
+
+.objective3 .picture{
+    width: 130px;
+    height: 130px;
+    border: 0px solid black;
+    margin-top: 38px;
+    margin-right: 0px;
+    background-image: url(../images/payvantage14.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 170px;
+}
+
+
+
+.table{
+    width: 1000px;
+    height: 150px;
+    border: 0px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.table .division1{
+    width: 300px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    background-color: lightgray;
+    background-image: url(../images/stock6.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    border-top: 10px;
+    border-bottom: 20px;
+    text-align: end;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+    
+.table .division2{
+    width: 300px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    background-image: url(../images/stock3.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-color: lavenderblush;
+    margin-left: 10px;
+    border-top: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.table .division3{
+    width: 300px;
+    height: 150px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 10px;
+    border-top: 10px;
+    background-image: url(../images/stock2.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-color: lightcyan;
+    margin-left: 15px;
+    margin-right:15px;
+    border-radius: 10px;
+}
+
+
+.booking{
+    width: 1000px;
+    height: 300px;
+    border: 0px solid black;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+.booking .book1{
+    width: 600px;
+    height: 280px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: white;
+    padding: 10px;
+}
+
+
+.booking .book2{
+    width: 300px;
+    height: 130px;
+    border: 0px solid black;
+    float: left;
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
+#co{
+    width: 1800px;
+    height: 333px;
+    border: 0px solid black;
+}
+
+.value{
+    width: 1780px;
+    height: 325px;
+    border: 0px solid black;
+    margin-top: 0px;
+    background-color: blueviolet;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+} 
+
+.value1{
+    width: 310px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 25px;
+    padding: 20px;
+}
+
+
+.value2{
+    width: 310px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.value3{
+    width: 310px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.value4{
+    width: 310px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.value5{
+    width: 290px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#c{
+    width: 1600px;
+    height: 45px;
+    border: 0px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+
+
+.navigator{
+    width: 1600px;
+    height: 45px;
+    border: 0px solid black;
+}
+
+
+.navigator .logo2{
+    width: 700px;
+    height: 45px;
+    border: 0px solid black;
+    float: left;
+}
+
+
+.navigator .nav{
+    width: 448px;
+    height: 45px;
+    border: 0px solid black;
+    float: left;
+    text-align: end;
+}
+
+
+#container3{
+    width: 1000px;
+    height: 400px;
+    border: 0px solid black;
+    margin-top: 80px;
+}
+
+.program{
+    width: 1000px;
+    height: 180px;
+    border: 1px solid black;
+    border-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+.program2{
+    width: 1000px;
+    height: 180px;
+    border: 1px solid black;
+    border-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+
+#contact{
+    width: 1780px;
+    height: 330px;
+    border: 0px solid black;
+    margin-top: 100px;
+}
+
+.slider{
+    width: 1780px;
+    height: 325px;
+    border: 0px solid black;
+    background-color: blueviolet;
+    margin-left: 0px;
+    margin-top: 0px;
+} 
+
+.slider1{
+    width: 310px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px;
+}
+
+
+.slider2{
+    width: 310px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding: 40px;
+}
+
+.slider3{
+    width: 310px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding: 40px;
+}
+
+.slider4{
+    width: 310px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding: 40px;
+}
+
+.slider5{
+    width: 300px;
+    height: 310px;
+    border: 0px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
 }
 
